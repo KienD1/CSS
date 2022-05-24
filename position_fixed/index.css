@@ -1,0 +1,68 @@
+/* body{
+    height: 2000px;
+    background: blue;
+}
+.fixed{
+    height: 30px;
+    line-height: 30px;
+    background: red;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.bottom{
+    height: 400px;
+    margin-top: 600px;
+    background: yellow;
+} */
+
+
+/* CSS cho ví dụ 2 */
+/* body{
+    height: 2000px;
+    background: blue;
+}
+.relative{
+    margin-top: 200px;
+    position: relative;
+    height: 100px;
+}
+.fixed{
+    height: 30px;
+    line-height: 30px;
+    background: red;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+.bottom{
+    height: 400px;
+    margin-top: 600px;
+    background: yellow;
+} */
+
+/* CSS cho ví dụ 3 */
+body{
+    height: 2000px;
+    background: blue;
+}
+.relative{
+    margin-top: 200px;
+    position: relative;
+    height: 100px;
+}
+.fixed{
+    height: 30px;
+    line-height: 30px;
+    background: red;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.bottom{
+    height: 400px;
+    margin-top: 600px;
+    background: yellow;
+}
