@@ -1,0 +1,33 @@
+#r1{
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+}
+#r2{
+    border-radius: 50%;
+    background: red;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+   
+}
+#r3{
+    border-radius: 15px 70px 20px 5px;
+    background: red;
+    padding: 20px;
+    width: 300px;
+    height: 50px;
+    color: yellow;
+}
+#r4{
+    border-radius: 35px 60px 60px;
+    background: pink;
+    padding: 50px;
+    width: 300px;
+    height: 50px;
+    color: rgb(10, 10, 10);
+  }
