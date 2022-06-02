@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    margin: 30px;
+    display: inline-block;
+  }
+  img {
+    background-color: aqua;
+  }
+  .fill {
+    object-fit: fill;
+  }
+  .cover {
+    object-fit: cover;
+  }
+  .contain {
+    object-fit: contain;
+  }
+  .scale-down {
+    object-fit: scale-down;
+  }
+  .none {
+    object-fit: none;
+  }
