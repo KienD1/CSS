@@ -1,0 +1,40 @@
+div {
+    text-align: center;
+    border: 1px solid royalblue;
+  }
+  span {
+    text-emphasis-color: blue;
+    -webkit-text-emphasis-color: blue;
+  }
+  .filled span {
+    text-emphasis-style: filled;
+    -webkit-text-emphasis-style: filled;
+  }
+  .open span {
+    text-emphasis-style: open;
+    -webkit-text-emphasis-style: open;
+  }
+  .dot span {
+    text-emphasis-style: dot;
+    -webkit-text-emphasis-style: dot;
+  }
+  .circle span {
+    text-emphasis-style: circle;
+    -webkit-text-emphasis-style: circle;
+  }
+  .double-circle span {
+    text-emphasis-style: double-circle;
+    -webkit-text-emphasis-style: double-circle;
+  }
+  .triangle span {
+    text-emphasis-style: triangle;
+    -webkit-text-emphasis-style: triangle;
+  }
+  .sesame span {
+    text-emphasis-style: sesame;
+    -webkit-text-emphasis-style: sesame;
+  }
+  .string span {
+    text-emphasis-style: '$';
+    -webkit-text-emphasis-style: '$';
+  }
