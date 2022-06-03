@@ -1,0 +1,30 @@
+p.lesson1::first-line{
+    color: red;
+    background: rgb(164, 164, 180);
+    font-size: 30px;
+}
+p.lesson2{
+    margin-top: 50px;
+}
+p.lesson2::first-letter{
+    color: blueviolet;
+    font-size: 30px;
+    margin: 30px;
+    padding: 30px;
+    border: 1px solid red;
+}
+h1.lesson3{
+    margin: 30px;
+    
+}
+h1.lesson3::before{
+    content: url(https://freetuts.net/upload/tut_post/images/2019/01/20/1637/css-pseudo-element-img.GIF);
+
+}
+h1.lesson4::after{
+    content: url(https://freetuts.net/upload/tut_post/images/2019/01/20/1637/css-pseudo-element-img.GIF);
+}
+::selection{
+    color: red;
+    background: rgb(82, 45, 97);
+}
