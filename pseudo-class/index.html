@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-clss in CSS</title>
+    <style>
+        a:link{
+            color:red;
+        }
+        a:visited{
+            color:green;
+        }
+        a:hover{
+            color:yellow;
+        }
+        a:active{
+            color:blue;
+        }
+        p{
+            display: none;
+            background-color: yellow;
+           padding: 20px;
+        }
+        div:hover p{
+            display: block;
+        }
+        input:enabled{
+            background:red;
+            color: yellow;
+        }
+        input:disabled{
+            background: gray;
+        }
+        p:empty{
+            width: 500px;
+            height: 20px;
+            background: yellow;
+        }
+
+
+    </style>
+</head>
+<body>
+    <p>
+        <a href="#">ĐÂY LÀ LINK ĐƯỢC ÁP DỤNG PSEUDO-CLASS</a>
+    </p>
+    <div>Hover lên thẻ này sẽ hiện ra thẻ P
+        <p>Đây là phần tử P</p>
+    </div>
+    <form action="">
+        Tên : <input type="text" value="Kiên"><br>
+        Họ : <input type="text" value="Trung"><br>
+        Công Ty : <input type="text" disabled="disabled" value="VMO">
+    </form>
+    <p></p>
+    <p>Phần tử p thứ 1</p>
+    <p>Phần tử p thứ 2</p>
+</body>
+</html>
