@@ -1,0 +1,15 @@
+h2{
+    margin: 60px 0px;
+}
+#heading1{
+    text-shadow: 0px 0px 20px red;
+}
+#heading2{
+    text-shadow: 20px 10px 2px blue;
+}
+#heading3{
+    text-shadow: 1px -10px 2px yellow;
+}
+#heading4{
+    text-shadow: 2px 2px 2px #acacac;
+}
