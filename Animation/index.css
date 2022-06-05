@@ -1,0 +1,25 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    animation: toReg 5s 0.5s ease-in-out infinite;
+
+}
+@keyframes toReg {
+    40%{
+        width: 200px;
+        background-color: aqua;
+        border-radius: 80%;
+    }
+    70%{
+        width: 50px;
+        border-radius: 30%;
+        background-color: forestgreen;
+    }
+    100%{
+        width: 100px;
+        border-radius: 0%;
+        background-color: aquamarine;
+    }
+}
